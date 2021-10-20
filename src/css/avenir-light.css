@@ -1,0 +1,8 @@
+@font-face {
+    font-family: "Avenir-light";
+    font-style: normal;
+    font-weight: 400;
+    src:
+            local("Avenir-light"),
+            url(./src/fonts/avenirltstd-light.otf) format("otf")
+}
