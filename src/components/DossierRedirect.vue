@@ -2,7 +2,7 @@
     <span class="bigger-text police-montserrat">
       <v-row v-for="dossier in dossiers" v-bind:key="dossier">
         <v-row v-if="$route.params.id === dossier.id" align-center>
-          <v-col cols="3" class="text-center mt-4">
+          <v-col lg="3" md="3" col="12" class="text-center mt-4">
             <router-link to="/dossiers">
               <v-btn>
                 <v-icon>mdi-arrow-left</v-icon>
@@ -10,29 +10,35 @@
                 </v-btn>
             </router-link>
           </v-col>
-          <v-col cols="6" class="justify-center text-center mt-4">
+          <v-col cols="12" class="justify-center text-center mt-4">
             <span class="bigger-text-title mt-4">
                 {{ dossier.title }}
               </span>
               <v-spacer class="mb-3"></v-spacer>
-            <v-row class="mb-1 mt-4 justify-center">
+            <v-row class="mb-1 mt-4 justify-center align-center text-center">
                 <v-img
                     :src="dossier.src"
-                    max-height="400px"
-                    max-width="550px"
+                    max-width="450px"
                 />
+            </v-row>
+              <v-col col="10">
               <v-card-text v-text="dossier.copyright" class="copyright font-italic"></v-card-text>
+              </v-col>
+            <v-row class="justify-center">
+              <v-col cols="10" v-for="text in formatText(dossier.text)" v-bind:key="text">
+                <v-card-text v-text="text" class="text-justify bigger-text break-words"/>
+              </v-col>
             </v-row>
-            <v-row>
-              <v-row v-for="text in formatText(dossier.text)" v-bind:key="text">
-                <v-card-text v-text="text" class="text-justify bigger-text"/>
-              </v-row>
-            </v-row>
+             <v-row class="justify-center">
+              <v-col cols="10">
+                <v-card-text v-text="dossier.author" class="text-justify bigger-text break-words"/>
+              </v-col>
+             </v-row>
             <v-divider></v-divider>
-            <v-row>
-              <v-row v-for="text in formatText(dossier.subtext)" v-bind:key="text">
-                <v-card-text v-text="text" class="text-justify"/>
-              </v-row>
+            <v-row class="justify-center">
+              <v-col cols="10" v-for="text in formatText(dossier.subtext)" v-bind:key="text">
+                <v-card-text v-text="text" class="text-justify break-words"/>
+              </v-col>
             </v-row>
 
           </v-col>

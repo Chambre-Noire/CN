@@ -16,14 +16,11 @@
           <v-card-title class="align-center justify-center text-break" v-text="item.title"/>
           <v-divider></v-divider>
           <v-row class="mb-7 mx-3">
-            <v-col lg="4" md="5" sm="12">
-              <v-avatar tile
-                        size="280px">
+            <v-col lg="4" md="5" cols="12">
                 <v-img
                     :src="item.src"
                     :lazy-src="item.src"
                 />
-              </v-avatar>
             </v-col>
 
             <v-col lg="8" md="7" sm="12">

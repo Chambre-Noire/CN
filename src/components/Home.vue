@@ -1,7 +1,7 @@
 <template>
   <div :style="background" class="police-montserrat">
     <v-row class="mx-3 justify-center">
-      <v-col xs="12">
+      <v-col xs="12" lg="5" md="5">
         <v-card class="elevation-0" max-width="720">
           <v-card-title
               class="justify-center align-center font-weight-bold text_medium"
@@ -25,7 +25,7 @@
         </v-card>
       </v-col>
 
-      <v-col md6 class="mt-4 mr-8">
+      <v-col cols="12" lg="6" md="6" class="mt-4">
         <div
             class="font-weight-bold text_big text-center"
             v-text="'Derniers articles'"
