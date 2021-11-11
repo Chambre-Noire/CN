@@ -156,8 +156,7 @@ export default {
           src: require('@/assets/image/Retour sur la prétendue _leçon de cinéma_ de Mathieu Kassovitz (crédits _ Konbini).jpg'),
           hover: false,
           subtitle:
-              'Cela fait désormais plus de deux ans que le média en ligne Konbini propose sur sa chaîne youtube ses video club. Inspirées par les Closet Picks de Criterion, ces capsules vidéo mettent en scène un réalisateur ou un acteur du secteur cinématographique en train de déambuler entre les rayons d’une boutique de location de DVD pour y cueillir certaines œuvres afin d’en partager l’intérêt ou non. Des artistes de renom ont ainsi ou se prêter au jeu de Konbini : Claire Denis, Gaspar Noé, Charlotte Gainsbourg ou même Nicolas Winding Refn.\\n\' +\n' +
-              '              \'Le 22 novembre 20',
+              "Depuis trois ans que Konbini invite dans ses video club des acteurs et réalisateurs plus ou moins éminents du secteur cinématographique, rares sont les chevilles à s’être autant prises dans le tapis que celles de Mathieu Kassovitz..."
         },
       ],
     }
