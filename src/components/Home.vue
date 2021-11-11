@@ -68,12 +68,11 @@
       <v-col lg="4" md="4" cols="12" class="text-justify">
         Chambre Noire. Deux mots apparemment innocents qui, ici, portent pourtant en eux une triple connotation.
         La chambre noire, c’est d’abord cet instrument optique, lointain ancêtre de la photographie, qui permettait de projeter une lumière externe au sein d’une boîte trouée.
-        La chambre noire renvoie aussi de façon plus primitive à l’enfance et plus particulièrement à cette pièce que nous nous plaisions tous à rejoindre avant de nous endormir.
+        La chambre noire, c’est aussi cette pièce-refuge qui nous happe chaque soir avant que le dernier mouton ne soit compté et que l’imagination ne devienne reine.
       </v-col>
       <v-col lg="4" md="4" cols="12" class="text-justify">
-        Cette pièce-refuge où l’imagination d’histoires nous réconfortait face à l’aridité du monde réel.
-        La chambre noire, c’est enfin la salle obscure de cinéma, véritable temple cinéphile où tant de passions, de déceptions et de sentiments s’affrontent.
-        A l’heure où l’avenir des salles de cinéma est plus que jamais menacé, nous tenons à célébrer toutes ces chambres noires à travers la création de ce site.
+        La chambre noire, c’est enfin la salle de cinéma, temple cinéphile où se déchaînent les passions, où s’envoûtent les cœurs, où s’élèvent les âmes.
+        A l’heure de la culture non-essentielle, éteignons la lumière et célébrons l’obscurité.
       </v-col>
       <v-col lg="2" md="2" sm="0" xs="0"></v-col>
     </v-row>
