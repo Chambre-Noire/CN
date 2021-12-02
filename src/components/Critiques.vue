@@ -108,7 +108,15 @@ export default {
               'La bibliothèque nationale,'
               + "...",
         },
-
+        {
+          title: 'Cry Macho : Le dernier Géant a désormais le dos courbé',
+          id: 7,
+          src: require('@/assets/image/Cry Macho (Copyright Warner Bros France).jpeg'),
+          hover: false,
+          subtitle:
+          'Le dernier Géant a désormais le dos courbé, la diction moins fluide, le regard plus doux. Dans Cry Macho, il raconte plus ou moins la même histoire que depuis 30 ans, celle d’un héros blessé, rangé loin du monde, qui se redécouvre une humanité au contact des autres. Cette fois-ci, c’est au Mexique qu’il va récupérer le fils d’un ami, pour le ramener au Texas. Une proposition des plus simples, claire comme un aller-retour, qui n’est évidemment qu’un argument : ce que veut le spectateur, c’est voir le beau visage ridé d’Eastwood, et Clint le sait bien. Tout n’est que prétexte à voir une légende tenir debout, continuer d’avancer et de se battre – contre l’injustice, contre la tristesse, contre le temps. D’aucuns reprocheront qu’ici, on a du mal à croire que ce personnage assomme un voyou d’un coup de poing. Lors d’une scène équestre, on voit clairement que ce n’est pas lui sur le cheval. Et pourtant, qu’importe : nous ne sommes pas venu pour voir le Callahan de l’Inspecteur Harry, nous sommes venu voir un homme âgé vivre comme s’il avait dix ans de moins.'
+              + "...",
+        },
       ],
     }
   },
